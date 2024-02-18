@@ -1,4 +1,5 @@
 # https://github.com/swar/nba_api
+# run with flask using python -m flask run
 
 from nba_api.stats.static import players
 from nba_api.stats.static import teams
@@ -15,5 +16,5 @@ def get_active_players():
 @app.route("/")
 def get_teams():
     '''Get all teams in the NBA.'''
-    teams = teams.get_teams()
-    return teams
+    all_teams = teams.get_teams()
+    return all_teams

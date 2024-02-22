@@ -2,6 +2,6 @@
 NBA Api project
 
 # Commands
-
-Activate virtual env: source venv/Scripts/activate
-Run flask app: flask --app flaskr run --debug
+1. Activate virtual env: source venv/Scripts/activate
+2. Install requirements: pip install -r requirements.txt
+3. Run flask app: flask --app flaskr run --debug
